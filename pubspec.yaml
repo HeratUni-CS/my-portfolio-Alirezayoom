@@ -60,6 +60,15 @@ flutter:
   assets:
     - images/
 
+  fonts:
+    - family: Saginaw
+      fonts:
+        - asset: fonts/Saginaw.ttf
+
+    - family: Effloresce
+      fonts:
+        - asset: fonts/Effloresce.ttf
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
