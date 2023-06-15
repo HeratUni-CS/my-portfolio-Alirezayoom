@@ -28,10 +28,20 @@ class PortfolioApp extends StatelessWidget {
           radius: 50,
           backgroundImage: AssetImage("images/avatar.jpg"),
         ),
+        SizedBox(height: 10),
         Text(
           "Alireza Karimi",
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+          style: TextStyle(
+              fontSize: 24, fontWeight: FontWeight.bold, fontFamily: 'Saginaw'),
         ),
+        SizedBox(height: 5),
+        Text(
+          "WEB DEVELOPER",
+          style: TextStyle(
+              fontFamily: "Effloresce",
+              letterSpacing: 5,
+              fontWeight: FontWeight.bold),
+        )
       ],
     ))));
   }
