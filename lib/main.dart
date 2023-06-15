@@ -46,8 +46,14 @@ class PortfolioApp extends StatelessWidget {
                     letterSpacing: 5,
                     fontWeight: FontWeight.bold),
               ),
+              SizedBox(
+                  height: 20,
+                  width: 120,
+                  child: Divider(
+                    color: Colors.black,
+                  )),
               Card(
-                  margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                  margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                   color: Colors.black,
                   child: ListTile(
                     leading: Icon(Icons.phone, color: Colors.white),
@@ -57,7 +63,7 @@ class PortfolioApp extends StatelessWidget {
                     ),
                   )),
               Card(
-                margin: EdgeInsets.symmetric(horizontal: 10, vertical: 0),
+                margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
                 color: Colors.black,
                 child: ListTile(
                   leading: Icon(Icons.email, color: Colors.white),
