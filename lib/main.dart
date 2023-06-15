@@ -45,34 +45,25 @@ class PortfolioApp extends StatelessWidget {
                     letterSpacing: 5,
                     fontWeight: FontWeight.bold),
               ),
-              Container(
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-                margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
-                color: Colors.black,
-                child: Row(
-                  children: [
-                    Icon(Icons.phone, color: Colors.white),
-                    SizedBox(width: 20),
-                    Text(
+              Card(
+                  margin: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                  color: Colors.black,
+                  child: ListTile(
+                    leading: Icon(Icons.phone, color: Colors.white),
+                    title: Text(
                       "0749471111",
                       style: TextStyle(color: Colors.white, fontSize: 20),
-                    )
-                  ],
-                ),
-              ),
-              Container(
-                padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+                    ),
+                  )),
+              Card(
                 margin: EdgeInsets.symmetric(horizontal: 10, vertical: 0),
                 color: Colors.black,
-                child: Row(
-                  children: [
-                    Icon(Icons.email, color: Colors.white),
-                    SizedBox(width: 20),
-                    Text(
-                      "alirezayoom@gmail.com",
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                    )
-                  ],
+                child: ListTile(
+                  leading: Icon(Icons.email, color: Colors.white),
+                  title: Text(
+                    "alirezayoom@gmail.com",
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
                 ),
               ),
             ],
